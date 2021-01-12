@@ -27,8 +27,9 @@ header{
 
 header ul{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
+  text-align: center;
 }
 
 header ul li span:hover{
@@ -46,11 +47,16 @@ header ul li a{
   border-radius: 25px;
 }
 
+/* DROPDOWN */
 .dropdown{
-  display: flex;
+  display: none;
 }
 .dropdown ul{
   flex-direction: column;
+}
+
+.active{
+  display: flex;
 }
 
 

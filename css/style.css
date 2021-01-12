@@ -24,6 +24,7 @@ header{
   margin: 0 auto;
   line-height: 80px;
   background: lightblue;
+  position: relative;
 }
 
 header ul{
@@ -48,16 +49,23 @@ header ul li a{
 }
 
 /* DROPDOWN */
+/* .with-dropdown{
+  position: relative;
+} */
+
 .dropdown span{
   text-transform: capitalize;
 }
 .dropdown li{
   line-height: 50px;
+  padding: 0 20px;
 }
 .dropdown{
   display: none;
   background-color: white;
+  position: absolute;
 }
+
 .dropdown ul{
   flex-direction: column;
 }

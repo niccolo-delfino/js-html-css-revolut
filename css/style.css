@@ -17,6 +17,7 @@ li.upper{
   text-transform: uppercase;
 }
 
+
 header{
   width: 1200px;
   height: 80px;
@@ -29,7 +30,6 @@ header ul{
   display: flex;
   justify-content: space-between;
   list-style: none;
-  text-align: center;
 }
 
 header ul li span:hover{
@@ -48,8 +48,15 @@ header ul li a{
 }
 
 /* DROPDOWN */
+.dropdown span{
+  text-transform: capitalize;
+}
+.dropdown li{
+  line-height: 50px;
+}
 .dropdown{
   display: none;
+  background-color: white;
 }
 .dropdown ul{
   flex-direction: column;

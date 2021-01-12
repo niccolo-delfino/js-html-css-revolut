@@ -31,7 +31,7 @@ header ul{
   list-style: none;
 }
 
-header ul li:hover{
+header ul li span:hover{
   cursor: pointer;
   font-weight: bold;
 }
@@ -44,6 +44,13 @@ header ul li a{
   padding: 10px 25px;
   background-color: rgb(213, 26, 138);
   border-radius: 25px;
+}
+
+.dropdown{
+  display: flex;
+}
+.dropdown ul{
+  flex-direction: column;
 }
 
 

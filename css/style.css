@@ -5,7 +5,7 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 a{
@@ -23,7 +23,7 @@ header{
   height: 80px;
   margin: 0 auto;
   line-height: 80px;
-  background: lightblue;
+  /* background: lightblue; */
   position: relative;
 }
 
